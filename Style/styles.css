@@ -1,0 +1,15 @@
+.heading{
+    font-size: 50px;
+    color: rgb(210, 201, 201);
+    background-color: black;
+    text-align:center;
+    padding: 50px;
+}
+.description{
+    border: 2px solid black;
+    text-align: justify;
+    padding: 15px;
+    margin: 20px;
+    background-color: black;
+    color: rgb(210, 201, 201);
+}
