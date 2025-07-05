@@ -1,8 +1,9 @@
 *{
-    background-image: url(/Images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    /* background-image: url(/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #EDB700;
 
     margin: 0;
     padding: 0;
@@ -57,5 +58,22 @@ button:hover{
 .cs-heading{
     text-align: center;
     font-size: 35px;
+    margin-top: 30px;
+}
+.content-section1{
+    display: flex;
+}
+.cs1{
+    width: 30%;
+}
+.vdo{
+    
+    height: 300px;
+    width: 400px;
+}
+.cs2{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
     margin-top: 30px;
 }
