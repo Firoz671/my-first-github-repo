@@ -1,15 +1,61 @@
-.heading{
-    font-size: 50px;
-    color: rgb(210, 201, 201);
-    background-color: black;
-    text-align:center;
-    padding: 50px;
+*{
+    background-image: url(/Images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
 }
-.description{
-    border: 2px solid black;
-    text-align: justify;
-    padding: 15px;
-    margin: 20px;
-    background-color: black;
-    color: rgb(210, 201, 201);
+.header{
+        display: flex;
+}
+
+.section1{
+    width: 25%;
+}
+.section2{
+    width: 50%;
+}
+.section3{
+    width: 25%;
+    padding: 25px;
+
+}
+.navbar{
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+li{
+    
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.btn{
+    margin-top: 25px;
+    font-size: 20px;
+    height: 35px;
+    width: 100px;
+    float: right;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+button:hover{
+    color: #6B6F7C;
+    border-color: #6B6F7C;
+}
+.cs-heading{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
 }
